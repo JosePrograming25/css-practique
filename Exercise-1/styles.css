@@ -1,0 +1,58 @@
+body {
+    background: #1F1F1F;
+    color: #C2CCCC;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+header {
+    background-color: #181818 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;  
+    
+}
+
+a {
+    color: #D3AAAA ;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e9c0c0;
+}
+
+/* Style Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logotipo{
+    height: 60px;
+
+}
+
+.slogan {
+    height: 60px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+}
